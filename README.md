@@ -1,44 +1,83 @@
-PrédicSanté - Système Intelligent de Prédiction des Maladies
-PrédicSanté est un projet académique développé par les étudiants de l’Université Adventiste de Lukanga (UNILUK) au sein du Groupe GACI, en collaboration avec l’ISTM-L. Ce système intelligent utilise l’apprentissage automatique pour prédire deux maladies majeures : le diabète et les maladies cardiaques.
+<div align="center"> <img src="https://i.imgur.com/EQ4RSxw.png" width="80" height="80" alt="PredicSanté logo"/> <br /><br /> <h1>🩺 PrédicSanté - Système Intelligent de Prédiction des Maladies</h1> <p> Un projet académique développé à l’Université Adventiste de Lukanga (UNILUK)<br/> pour la détection précoce du diabète et des maladies cardiaques grâce à l’IA. </p> </div>
 
-Description du projet
-Ce projet couvre l’intégralité du cycle de vie d’un modèle prédictif en santé, comprenant :
+🗒️ Table des matières
+💡 À propos
 
-L'exploration des datasets : Analyse préliminaire et compréhension des données issues de bases publiques de santé.
+⚙️ Fonctionnalités
 
-Le prétraitement des données : Nettoyage, traitement des valeurs manquantes, normalisation et sélection des variables pertinentes.
+🛠️ Technologies
 
-L’entraînement des modèles : Création et apprentissage de deux modèles distincts pour la prédiction du diabète et des maladies cardiaques, basés sur des algorithmes d’apprentissage supervisé.
+🚀 Installation
 
-La validation des modèles : Évaluation rigoureuse des performances des modèles à l’aide de métriques adaptées (précision, rappel, courbe ROC, etc.).
+👨‍⚕️ Utilisation
 
-La sauvegarde des modèles : Export des modèles entraînés au format .sav pour réutilisation ultérieure.
+🎓 Crédits
 
-Le développement d’une interface utilisateur : Mise en place d’une application web interactive avec Streamlit permettant aux utilisateurs de tester facilement les modèles en saisissant leurs données personnelles et en obtenant une prédiction immédiate.
+<a name="à-propos">💡 À propos</a>
+PrédicSanté est un système intelligent de prédiction médicale qui s'appuie sur l'apprentissage automatique pour anticiper les risques de diabète et de maladies cardiaques. Il a été conçu dans un but pédagogique et pratique, pour sensibiliser à la santé préventive grâce aux données.
 
-Fonctionnalités principales
-Prédiction personnalisée du risque de diabète.
+Le projet couvre l'ensemble du cycle de vie d'un système d'IA :
 
-Prédiction personnalisée du risque de maladies cardiaques.
+🧪 Exploration de jeux de données de santé publique.
 
-Interface intuitive et responsive pour faciliter l’utilisation.
+🧼 Prétraitement (nettoyage, normalisation, sélection des variables).
 
-Validation des entrées utilisateur pour garantir la qualité des données saisies.
+🤖 Entraînement de deux modèles supervisés.
 
-Technologies utilisées
-Python (pandas, scikit-learn, pickle)
+📊 Validation (accuracy, recall, ROC).
 
-Streamlit (interface web)
+💾 Sauvegarde des modèles au format .sav.
 
-Bibliothèques standard pour le traitement des données
+🌐 Déploiement via une interface Streamlit.
 
-Utilisation
-Cloner le dépôt.
+<a name="fonctionnalités">⚙️ Fonctionnalités</a>
+✅ Prédiction du risque de diabète.
 
-Installer les dépendances via pip install -r requirements.txt.
+❤️ Prédiction du risque de maladies cardiaques.
 
-Lancer l’application Streamlit avec la commande :
+🧠 Modèles IA robustes et entraînés.
+
+🖥️ Interface Streamlit simple et intuitive.
+
+✅ Validation des données entrées par l'utilisateur.
+
+<a name="technologies">🛠️ Technologies</a>
+Python : pandas, scikit-learn, pickle
+
+Streamlit : pour l’interface utilisateur web
+
+Jupyter Notebook : pour l’exploration et le prototypage
+
+<a name="installation">🚀 Installation</a>
+Clonez le dépôt :
+
+bash
+Copier
+Modifier
+git clone https://github.com/VictoireMukovi/Sante_Predict.git
+cd predicsante
+Installez les dépendances :
+
+bash
+Copier
+Modifier
+pip install -r requirements.txt
+Lancez l'application Streamlit :
+
+bash
+Copier
+Modifier
 streamlit run app.py
+<a name="utilisation">👨‍⚕️ Utilisation</a>
+Ouvrez l’interface Streamlit.
 
-Saisir les informations demandées dans l’interface pour obtenir une prédiction.
+Choisissez la prédiction (diabète ou maladie cardiaque).
 
+Entrez vos données personnelles.
+
+Cliquez sur Prédire.
+
+Obtenez instantanément une estimation du risque.
+
+<a name="crédits">🎓 Crédits</a>
+Projet réalisé par le Groupe GACI, étudiants de la Faculté des Sciences Informatiques de l’UNILUK, en collaboration avec l’ISTM-L.

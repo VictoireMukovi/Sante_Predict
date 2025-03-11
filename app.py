@@ -168,9 +168,9 @@ st.markdown("<hr style='margin-top: 40px;'>", unsafe_allow_html=True)
 footer_cols = st.columns(3)
 
 with footer_cols[0]:
-    st.image("images/uniluk_logo.jpg", width=80, caption="UNILUK")
+    st.image("images/uniluk_logo.jpg", width=80, caption="CACIM")
 with footer_cols[1]:
-    st.image("images/gaci_logo.png", width=80, caption="GACI")
+    st.image("images/gaci_logo.png", width=80, caption="GACI_UNILUK")
 with footer_cols[2]:
     st.image("images/istml_logo.png", width=80, caption="ISTM-L")
 
