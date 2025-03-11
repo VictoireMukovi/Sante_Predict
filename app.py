@@ -39,7 +39,7 @@ with header_cols[1]:
             <h2 style="margin-bottom: 10px;">🧑‍⚕️ PrédicSanté</h2>
             <h4 style="margin-bottom: 10px;">Système Intelligent de Prédiction des Maladies</h4>
             <h5 style="margin-bottom: 5px;">Projet réalisé par les étudiants de l'UNILUK (GACI)</h5>
-            <p style="font-style: italic; margin-bottom: 0;">En collaboration avec l'ISTM-L</p>
+            <p style="font-style: italic; margin-bottom: 0;">En collaboration avec l'ISTM-L et CACIM</p>
         </div>
     """, unsafe_allow_html=True)
 
