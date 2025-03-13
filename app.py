@@ -71,7 +71,7 @@ if selected == "Prédiction du Diabète":
     with col2:
         Glucose = st.text_input("Niveau de glucose (mg/dL)", placeholder="ex : 120")
     with col3:
-        BloodPressure = st.text_input("Pression artérielle (mmHg)", placeholder="ex : 70")
+        BloodPressure = st.text_input("Pression artérielle diastolique (mm Hg)", placeholder="ex : 70")
     with col1:
         SkinThickness = st.text_input("Épaisseur de la peau (mm)", placeholder="ex : 20")
     with col2:
